@@ -37,6 +37,22 @@ Behaviors that are difficult with the current API:
   when they look at that in the table it should appear just like that
   (in the 90% use case, of course there are corners here).
 
+### Internal representation
+
+Using `ra` and `dec` in degrees (not radians) for the internal representation
+would make the integration with Table better.  Users would see decimal
+RA and Dec in degrees, which is useful.  Performance hit is noticable but
+not very big (15%):
+```
+In [25]: x = np.random.uniform(200, size=1e6)
+
+In [26]: timeit np.cos(np.radians(x))
+10 loops, best of 3: 43.3 ms per loop
+
+In [27]: timeit np.cos(x)
+10 loops, best of 3: 37.3 ms per loop
+```
+
 ## Angle
 
 ```
