@@ -15,7 +15,6 @@ Features:
 - Every output and transformation is done by attribute access.
 - Object behavior is controlled by class initialization or object attrs.
 - Re-use `format` (from Time, Table) as a consistent way of specify *how* values are represented.
-- Re-use `system` (from Time) to specify the coordinate system.
 
 Behaviors that are difficult with the current API: 
 *(apologies in advance if I am misremembering how the current coordinates work)*
