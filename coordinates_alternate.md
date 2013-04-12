@@ -14,7 +14,8 @@ Features:
 - Exactly one way to make an angle and one way to make a coordinate.
 - Every output and transformation is done by attribute access.
 - Object behavior is controlled by class initialization or object attrs.
-- Re-use `format` (from Time, Table) as a consistent way of specify *how* values are represented.
+- Re-use `format` (from Time, Table) as a consistent way of specify *how* values are represented,
+  both on input and as the default output representation.
 
 Behaviors that are difficult with the current API: 
 *(apologies in advance if I am misremembering how the current coordinates work)*
