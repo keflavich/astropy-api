@@ -71,6 +71,8 @@ The ``style`` parameter defines the set of unit / separator strings as follows::
   %DS_unit      's'       ''         ''         ' '       r{}^{\prime\prime}''
 
 
+(NOTE: I seem unable to paste the correct unicode characters in the 'unicode' column above).
+
 Examples
 --------
 ::
