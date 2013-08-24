@@ -11,7 +11,7 @@ hours).  Even with this complexity there is limited flexibility to format in una
 ways.
 
 The specific proposal is to define a format mini-language (ala ``strptime``) which is used
-to specify a ``format`` keyword arg to ``Angle.to_string``.  This would replace four args
+to specify a ``format`` keyword arg to ``Angle.to_string``.  This would replace four
 args (``decimal``, ``sep``, ``alwayssign``, ``fields``) with one new ``style`` arg, and 
 change the definition of the existing ``format`` arg.
 
